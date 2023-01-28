@@ -7,7 +7,7 @@
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + LeadMark main styles -->
-	<link rel="stylesheet" href="assets/css/leadmark.css">
+	<link rel="stylesheet" href="assets/css/rabbit.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
@@ -15,16 +15,18 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link rel="stylesheet" href="style.css">
+
         <title>Rabbit landing page</title>
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home" >
 
     <!-- page Navigation -->
     <nav class="navbar custom-navbar navbar-expand-md navbar-light fixed-top" data-spy="affix" data-offset-top="10">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="assets/imgs/logo.svg" alt="">
-                <h2>Rabbit</h2>
+                <img src="assets/imgs/logo.png" alt="">
+                <h2></h2>
             </a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -38,13 +40,16 @@
                         <a class="nav-link" href="#about">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Our Community</a>
+                        <a class="nav-link" href="#portfolio">Roadmap</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#blog">Buy Rabbit</a>
+                        <a class="nav-link" href="#blog">Tokenomics</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact Us</a>
+                        <a class="nav-link" href="#contact">Buy Rabbit</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Community</a>
                     </li>
                 </ul>
             </div>
@@ -53,10 +58,17 @@
     <!-- End Of Second Navigation -->
 
     <!-- Page Header -->
-    <header class="header">
+    <header class="header" style="background-image:url(assets/imgs/branding-1.jpg);">
         <div class="overlay">
             <h1 class="title">Rabbit</h1>
-            <h3 class="">Experience steady growth in your investment with Rabbit Coin</h3>
+            <h3 style="font-weight: bold;
+            margin-bottom: 80px;
+            text-align: center;
+            letter-spacing: 7px;">Experience steady growth in your investment with Rabbit Coin </h3>
+             <h3 style="font-weight: bold;
+             margin-bottom: 80px;
+             text-align: center;
+             letter-spacing: 7px;"> simply purchase and hold for staking rewards. </h3>
               
         </div>  
         <div class="shape">
@@ -69,40 +81,7 @@
     <!-- End Of Page Header -->
 
     <!-- Service Section -->
-    <section  id="service" class="section pt-0">
-        <div class="container">
-            <h6 class="section-title text-center">Updates</h6>
-                        <div class="row">
-                <div class="col-md-3" style="background-color: aquamarine;">
-                    <div class="card mb-4 mb-md-0">
-                        <div class="card-body" style="background-image: url(https://static.vecteezy.com/packs/media/vectors/term-bg-1-3d6355ab.jpg); width: 5p;">
-                            <h4 class="card-title mt-3"> Pera verification <h4>
-                                <!-- <h4><p class="mb-0">Lorem ipsum dolor sit amet, cquasi cupiditate voluptate debitis saepe dolorem totam dolor repudiandae quo nihil, repellendus nesciunt ab fuga quae, minima reprehenderit sequi fugit.</p></h4>
-                             -->
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 mb-md-0">
-                        <div class="card-body" style="background-image: url(https://static.vecteezy.com/packs/media/vectors/term-bg-1-3d6355ab.jpg);">
-                          
-                            <h5 class="card-title mt-3">Delectus Suscipit<h5>
-                            <p class="mb-0">Lorem ipsum dolor sit amet, cquasi cupiditate voluptate debitis saepe dolorem totam dolor repudiandae quo nihil, repellendus nesciunt ab fuga quae, minima reprehenderit sequi fugit.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 mb-md-0">
-                        <div class="card-body">
-                            <small class="text-primary font-weight-bold">03</small>
-                            <h5 class="card-title mt-3">Itaque harum<h5>
-                            <p class="mb-0">Lorem ipsum dolor sit amet, cquasi cupiditate voluptate debitis saepe dolorem totam dolor repudiandae quo nihil, repellendus nesciunt ab fuga quae, minima reprehenderit sequi fugit.</p>
-                        </div>
-                    </div>
-                </div>              
-            </div>
-        </div>
-    </section>
+   
     <!-- End OF Service Section -->
 
     <!-- About Section -->
@@ -120,7 +99,7 @@
                             <img src="assets/imgs/about-1.jpg" alt="" class="w-100 shadow-sm">
                         </div>
                         <div class="col-6">
-                            <img src="assets/imgs/about-2.jpg" alt="" class="w-100 shadow-sm">
+                            <img src="assets/imgs/logo.png" alt="" class="w-100 shadow-sm">
                         </div>
                         <div class="col-12 mt-4">
                             <p>Our team is dedicated to creating a fun and engaging experience for all of our holders, through regular meme contests and a vibrant social media presence.</p>
@@ -135,194 +114,130 @@
     </section>
     <!-- End OF About Section -->
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="section portfolio-section">
+    <!-- Tokenomics -->
+    <p class="section-title text-center" style="font-size:40px; color: black;font-weight: 400;">Roadmap</p>
+    <section class="section" id="about">
         <div class="container">
-            <h6 class="section-title text-center">Road Map</h6>
-            <h6 class="section-subtitle mb-5 text-center">New stunning projects for our amazing clients</h6>
+            <div class="row">
+    
+          <div class="card"  >
+            <h3>Phase 1</h3>
+            <!-- <i class="fas fa-folder-open"></i> -->
+            <p class="label">*Build and launch the Rabbit Coin website. These is our Phase 1 and we have achieved that so soon</p>
+           
             
-            <div class="portfolio-container"> 
-                <div class="col-md-6 col-lg-4 web new">
-                    <div class="portfolio-item">
-                        <img src="assets/imgs/web-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                        <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/web-1.jpg"></a>
-                            <div class="text-holder">
-                                <h6 class="title">WEB</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                            </div>
-                        </div>   
-                    </div>             
-                </div>
-                <div class="col-md-6 col-lg-4 web new">
-                    <div class="portfolio-item">
-                        <img src="assets/imgs/web-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                        <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/web-2.jpg"></a>
-                            <div class="text-holder">
-                                <h6 class="title">WEB</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                            </div>
-                        </div> 
-                    </div>                         
-                </div>
-                <div class="col-md-6 col-lg-4 advertising new">
-                    <div class="portfolio-item">
-                        <img src="assets/imgs/advertising-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
-                        <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/advertising-2.jpg"></a>
-                            <div class="text-holder">
-                                <h6 class="title">ADVERSTISING</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                            </div>
-                        </div>    
-                    </div>              
-                </div> 
-                <div class="col-md-6 col-lg-4 web">
-                    <div class="portfolio-item">
-                        <img src="assets/imgs/web-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                        <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/web-4.jpg"></a>
-                            <div class="text-holder">
-                                <h6 class="title">WEB</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                            </div>
+          </div>
+          
+          <div class="card" id="project-2">
+            <h3>Phase 2</h3>
+            <br>
+            <p class="label">*Community building and social media campaign
+                *Launch Pera verification process to verify and increase trust in the project.
+                </p>
+            <!-- <a href="#" >View on exporer</a> -->
+          </div>
+          
+          <div class="card" id="project-3">
+            <h3>Phase 3</h3>
+            
+            <p class="label">Introduce staking for users to earn rewards for holding the coin and liquidity pools (LP) farming to allow users to earn rewards for providing liquidity to the pools..</p>
+            <!-- <a href="#" >View on exporer</a> -->
+          </div>
+          
+          <div class="card" id="project-4">
+            <h3>Phase 4</h3>
+          
+            <p class="label">Start a Reddit campaign to increase visibility and engagement on the platform.</p>
+            <!-- <a href="#">View on exporer</a> -->
+          </div>
+       
+          
+        </div>
+      </section>
+
+    <!-- Portfolio Section -->
+    <section  id="service" class="section pt-0" style="margin-top: 100px; background-color: blanchedalmond; font-weight: 200;">
+        <div class="container">
+            <h6 class="section-title text-center" style="margin-top: 100px;">Tokenomics</h6>
+                        <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 mb-md-0">
+                        <div class="card-body" >
+                            <small class="text-primary font-weight-bold">1</small>
+                          
+                            <h5 class="card-title mt-3">Liquidity<h5>
+                            <p class="card-title" style="font-size: 1.1rem;">4 million tokens, or 40% of the total supply, will be allocated for liquidity. These tokens will be made available for trading on tinyman, allowing for easy buying and selling of Rabbit Coin..</p>
                         </div>
-                    </div>                                                     
+                    </div> 
+                    
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 mb-md-0">
+                        <div class="card-body" >
+                                                 
+                            <h5 class="card-title mt-3">Staking and Farming<h5>
+                            <p class="card-title" style="font-size: 1.1rem;">3 million tokens, or 30% of the total supply, will be allocated for staking and farming. These tokens will be used to incentivize community members to hold and stake Rabbit Coin, providing a mechanism for increasing the value of the token..</p>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="col-md-6 col-lg-4 advertising"> 
-                    <div class="portfolio-item">
-                        <img src="assets/imgs/advertising-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                               
-                        <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/advertising-1.jpg"></a>
-                            <div class="text-holder">
-                                <h6 class="title">ADVERSITING</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                            </div>
-                        </div>
-                    </div>                                                       
-                </div> 
-                <div class="col-md-6 col-lg-4 web new">
-                    <div class="portfolio-item">
-                        <img src="assets/imgs/web-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
-                       <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/web-3.jpg"></a>
-                            <div class="text-holder">
-                                <h6 class="title">WEB</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                            </div>
-                        </div>
-                    </div>                                                     
-                </div>
-                <div class="col-md-6 col-lg-4 advertising new">
-                    <div class="portfolio-item">
-                        <img src="assets/imgs/advertising-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">       
-                       <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/advertising-3.jpg"></a>
-                            <div class="text-holder">
-                                <h6 class="title">ADVERSITING</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                            </div>
-                        </div>
-                    </div>                                                       
-                </div> 
-                <div class="col-md-6 col-lg-4 advertising new"> 
-                    <div class="portfolio-item">
-                        <img src="assets/imgs/advertising-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">            
-                        <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/advertising-4.jpg"></a>
-                            <div class="text-holder">
-                                <h6 class="title">ADVERTISING</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                            </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 mb-md-0">
+                        <div class="card-body" >
+                                                     
+                            <h5 class="card-title mt-3">Campaign and Community<h5>
+                            <p class="card-title" style="font-size: 1.1rem;">Rabbit Coin is allocating 1 million tokens, or 10% of its total supply, for campaigns and community incentives, which will be used to reward community members for their contributions, such as promoting the coin, creating memes, and participating in community events.</p>
                         </div>
                     </div>
-                            
-                </div> 
-                <div class="col-md-6 col-lg-4 branding new">
-                    <div class="portfolio-item">
-                        <img src="assets/imgs/branding-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                        
-                        <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/branding-1.jpg"></a>
-                            <div class="text-holder">
-                                <h6 class="title">BRANDING</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                            </div>
-                        </div> 
-                    </div>
-                </div> 
-                <div class="col-md-6 col-lg-4 branding">
-                    <div class="portfolio-item">
-                        <img src="assets/imgs/branding-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
-                        <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/branding-2.jpg"></a>
-                            <div class="text-holder">
-                                <h6 class="title">BRANDING</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                            </div>
-                        </div>
-                    </div>                                                     
-                </div> 
-                <div class="col-md-6 col-lg-4 branding new">
-                    <div class="portfolio-item">
-                        <img src="assets/imgs/branding-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">   
-                        <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/branding-3.jpg"></a>
-                            <div class="text-holder">
-                                <h6 class="title">BRANDING</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                            </div>
-                        </div>
-                    </div>                                                    
-                </div> 
-                <div class="col-md-6 col-lg-4 branding">
-                    <div class="portfolio-item">
-                        <img src="assets/imgs/branding-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                      
-                        <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/branding-4.jpg"></a>
-                            <div class="text-holder">
-                                <h6 class="title">BRANDING</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                            </div>
-                        </div>
-                    </div>                                                      
-                </div> 
-                <div class="col-md-6 col-lg-4 branding">
-                    <div class="portfolio-item">
-                        <img src="assets/imgs/branding-5.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">          
-                        <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/branding-5.jpg"></a>
-                            <div class="text-holder">
-                                <h6 class="title">BRANDING</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                            </div>
-                        </div>
-                    </div>                                                   
                 </div>
-            </div>   
-        </div>            
+
+                <div class="col-md-4">
+                    <div class="card mb-4 mb-md-0">
+                        <div class="card-body">
+                                                     
+                            <h5 class="card-title mt-3">Team Alocation<h5>
+                            <p class="card-title" style="font-size: 1.1rem;">1 million tokens, or 10% of the total supply, will be allocated for the team. These tokens will be used to incentivize the team to continue developing and promoting Rabbit Coin.</p>
+                        </div>
+                    </div>
+                </div>
+                 
+                 
+                <div class="col-md-4">
+                    <div class="card mb-4 mb-md-0">
+                        <div class="card-body">
+                          
+                            <h5 class="card-title mt-3">Product Development<h5>
+                            <p class="card-title" style="font-size: 1.1rem;">1 million tokens, or 10% of the total supply, will be allocated for product development. These tokens will be used to fund the development of new features and products related to Rabbit Coin.</p>
+                        </div>
+                    </div> 
+
+
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 mb-md-0">
+                    <div class="card-body">
+                      
+                       
+                        <p class="card-title" style="font-size: 1.1rem;">It is also worth noting that team tokens and part of community and product development tokens will be locked for 4 months along with liquidity.</p>
+                    </div>
+                </div>
+            </div>  
+                     
+         </div>
+         
+
+        </div>
     </section>
     <!-- End of portfolio section -->
 
     <!-- Blog Section -->
     <section class="section" id="blog">
-        <div class="container">
+        <div class="container" >
             <h6 class="section-title mb-0 text-center">BUY RABBIT</h6>
-            <h6 class="section-subtitle mb-5 text-center">Architecto provident deserunt eveniet libero</h6>
+            <h6 class="section-subtitle mb-5 text-center">Get some Rabbit coin</h6>
 
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card border-0 mb-4">
-                        <img src="assets/imgs/blog-1.jpg" alt="" class="card-img-top w-100">
-                        <div class="card-body">                         
-                            <h6 class="card-title">Pariatur Omnis Harum quae sint.</h6>
-                            <p>Fuga quae ratione inventore Perferendis porro.</p>
-                            <a href="javascript:void(0)" class="small text-muted">Go To The Article</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
+            
+                <!-- <div class="col-md-4">
                     <div class="card border-0 mb-4">
                         <img src="assets/imgs/blog-2.jpg" alt="" class="card-img-top w-100">
                         <div class="card-body">                         
@@ -331,14 +246,14 @@
                             <a href="javascript:void(0)" class="small text-muted">Go To The Article</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
+                </div> -->
+                <div class="col-md-6" style="margin:auto;">
                     <div class="card border-0 mb-4">
-                        <img src="assets/imgs/blog-3.jpg" alt="" class="card-img-top w-100">
+                        <img src="assets/imgs/images.png" alt="" class="card-img-top w-100">
                         <div class="card-body">                         
-                            <h6 class="card-title">Qui optio neque alias</h6>
-                            <p>Fuga quae ratione inventore Perferendis porro.</p>
-                            <a href="javascript:void(0)" class="small text-muted">Go To The Article</a>
+                            <h6 class="card-title">Buy from the popular Tinyman Dex</h6>
+                            <p><i class="fas fa-arrow-down"></i></p>
+                            <a href="https://app.tinyman.org/#/swap?asset_in=0&asset_out=1020893679" class="" style="color: white;">Buy Here</a>
                         </div>
                     </div>
                 </div>
@@ -348,25 +263,25 @@
     <!-- End of Blog Section -->
 
 
-    <section class="container mx-auto" id="team" style="background-color: rgba(46, 14, 14, 0.185);" >
-        <h2 class="text-center text-[20px] md:text-4xl my-10">JOIN OUR CLUB</h2>
+    <section class="container mx-auto" id="team"  >
+        <h2 class="text-center text-[20px] md:text-4xl my-10">Community</h2>
        
         <div class="container p-5 join">
             <div class="icons-container mx-auto text-center mt-40">
-                <a href="https://twitter.com/DossaCoinASA">
+                <a href="#">
                     <img src="https://cdn-icons-png.flaticon.com/128/3256/3256013.png">
                 </a>
-               <a href="https://www.reddit.com/r/Dossaclub?utm_medium=android_app&utm_source=share"> 
+               <!-- <a href="https://www.reddit.com/r/Dossaclub?utm_medium=android_app&utm_source=share"> 
                     <img src="https://cdn-icons-png.flaticon.com/128/3536/3536761.png">
-                </a>
+                </a> -->
                 
-                <a href="https://discord.gg/ASehXYbwJY">
+                <a href="https://discord.gg/r9eGq8AS4b">
                     <img src="https://cdn-icons-png.flaticon.com/128/2111/2111370.png">
                 </a>
 
-                <a href="https://vestige.fi/asset/913799044">
+                <!-- <a href="https://vestige.fi/asset/913799044">
                     <img src="images/V.png">
-                </a>
+                </a> -->
             </div>
         </div>   
     </section>
@@ -381,10 +296,10 @@
     </div>
 
     <!--Footer Start-->
-    <footer class="p-[50px] text-center mt-3 max-w-full">
+    <footer class="p-[50px] text-center  max-w-full"style="color:black;font-size: 30px;">
         <div>
             <p>
-                &copy; Dossa
+                &copy; Rabbit
             </p>
         </div>
     </footer>
@@ -392,8 +307,9 @@
 
            
             <!-- Page Footer -->
-            <footer class="mt-5 py-4 border-top border-secondary">
-                <p class="mb-0 small">&copy; <script>document.write(new Date().getFullYear())</script>   
+            <footer class="mt-5 py-4 border-top border-secondary" style="background-color: black;
+            text-align:center ;">
+                <p class="mb-0 small" style="color: aliceblue;font-size: 30px;">&copy; <script>document.write(new Date().getFullYear())</script>   </p>
             </footer>
             <!-- End of Page Footer -->  
         </div>
