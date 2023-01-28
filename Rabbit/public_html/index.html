@@ -43,13 +43,13 @@
                         <a class="nav-link" href="#roadmap">Roadmap</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#blog">Tokenomics</a>
+                        <a class="nav-link" href="#tokenomics">Tokenomics</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Buy Rabbit</a>
+                        <a class="nav-link" href="#buyrabbit">Buy Rabbit</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Community</a>
+                        <a class="nav-link" href="#buyrabbit">Community</a>
                     </li>
                 </ul>
             </div>
@@ -69,6 +69,10 @@
              margin-bottom: 80px;
              text-align: center;
              letter-spacing: 7px;"> simply purchase and hold for staking rewards. </h3>
+              <h4 class="text-yellow-200 text-xs md:text-lg">ASA ID:
+                <span class="asa hover:underline hover:ease-in ">1020893679</span>
+                <i class="fa fa-clone " id="copy" aria-hidden="true" style="color: white;"></i>
+            </h4>
               
         </div>  
         <div class="shape">
@@ -128,8 +132,7 @@
                 <div class="">
                     <div class=" mb-4 mb-md-0">
                         <div class="card-body" >
-                            <small class="text-primary font-weight-bold">1</small>
-                          
+                            
                             <h5 class="card-title mt-3">phase 1<h5>
                             <p class="card-title" style="font-size: 1.1rem;">*Build and launch the Rabbit Coin website. These is our Phase 1 and we have achieved that so soon</p>
                         </div>
@@ -165,6 +168,7 @@
                                 Start a Reddit campaign to increase visibility and engagement on the platform.
                                 
                                 We intend to achieve all of the above in 3 weeks also note that the roadmap will can change as we deem fit.</p>
+                                <div id="tokenomics"></div>
                         </div>
                     </div>
                 </div>
@@ -190,10 +194,13 @@
                 <div class="">
                     <div class=" mb-4 mb-md-0">
                         <div class="card-body" >
-                            <small class="text-primary font-weight-bold">1</small>
-                          
-                            <h5 class="card-title mt-3">Liquidity<h5>
-                            <p class="card-title" style="font-size: 1.1rem;">4 million tokens, or 40% of the total supply, will be allocated for liquidity. These tokens will be made available for trading on tinyman, allowing for easy buying and selling of Rabbit Coin..</p>
+                                                 
+                            <h5 ass="card-title mt-3">Rabbit Coin has a total supply of 10 million tokens. The tokenomics of Rabbit Coin are designed to promote liquidity, community engagement, and product development.<h5>
+                                <p></p>
+                                <p></p>
+
+                            <h5 ass="card-title mt-3">Liquidity<h5>
+                            <p class="card-title" style="font-size: 1.1rem;">4 million tokens, or 40% of the total supply, will be allocated for liquidity. These tokens will be made available for trading on tinyman, allowing for easy buying and selling of Rabbit Coin.</p>
                         </div>
                     </div> 
                     
@@ -247,6 +254,7 @@
                        
                         <p class="card-title" style="font-size: 1.1rem;">It is also worth noting that team tokens and part of community and product development tokens will be locked for 4 months along with liquidity.</p>
                     </div>
+                    <divi id="buyrabbit"></div>
                 </div>
             </div>  
                      
@@ -361,6 +369,17 @@
 
     <!-- LeadMark js -->
     <script src="assets/js/leadmark.js"></script>
+
+
+    <script>
+           document.querySelector("#copy").addEventListener("click", () => {
+            const copy = navigator.clipboard.writeText(document.querySelector(".asa").innerHTML);
+
+            document.querySelector('#copy').classList.remove('fa-copy');
+            document.querySelector('#copy').classList.add('fa-check');
+        })
+
+    </script>
 
 </body>
 </html>
